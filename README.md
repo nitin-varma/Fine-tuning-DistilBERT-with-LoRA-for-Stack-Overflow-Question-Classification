@@ -25,14 +25,22 @@ tqdm>=4.60.0
 ## Setup Instructions
 
 1. Clone this repository:
+
    git clone <repo link>
+
    cd stackoverflow-question-classifier
+
 2. Create and activate a virtual environment:
+
    python -m venv venv
+
    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-3. Install dependencies:
-   pip install -r requirements.txt
-4. Download the dataset:
+   
+4. Install dependencies:
+   
+   pip install -r requirements_fine_tuning.txt
+   
+5. Download the dataset:
    The Stack Overflow dataset is available in the `data` directory. If not present, download it from [Kaggle](https://www.kaggle.com/competitions/predict-closed-questions-on-stack-overflow/data).
 
 
