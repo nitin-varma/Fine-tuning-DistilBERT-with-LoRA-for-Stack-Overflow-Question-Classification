@@ -75,6 +75,8 @@ def predict_question_status(question_text):
 status, confidence = predict_question_status("How do I sort a list in Python?")
 print(f"Question status: {status} (confidence: {confidence:.2f})")
 
+```
+
 ## Results
 
 The fine-tuned model achieves 77.65% accuracy on the test set, with a macro F1 score of 0.776. The model performs better on "open" questions (F1=0.82) than on "closed" questions (F1=0.73).
