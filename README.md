@@ -35,14 +35,7 @@ tqdm>=4.60.0
 4. Download the dataset:
    The Stack Overflow dataset is available in the `data` directory. If not present, download it from [Kaggle](https://www.kaggle.com/competitions/predict-closed-questions-on-stack-overflow/data).
 
-5. Directory structure:
-   .
-  ├── data/                  # Dataset files
-  ├── models/                # Saved model checkpoints
-  ├── notebooks/             # Jupyter notebooks
-  │   └── fine_tuning_lora.ipynb  # Main training notebook
-  ├── error_analysis/        # Error analysis outputs
-  └── requirements.txt       # Dependencies
+
 ## Usage
 
 ### Training
